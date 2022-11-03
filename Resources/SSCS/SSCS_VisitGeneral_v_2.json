@@ -1,0 +1,103 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid ",
+		   "name": "visit.event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"visit.event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "visit.event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "visit.event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "visit.event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "visitcreadate",
+		   "name": "visit.creationDate"
+		 },
+		 {
+		   "externalName": "DLV",
+		   "name": "dateOfVisit"
+		 },		 
+		 {
+		   "externalName": "FSEM",
+		   "name": "visit.event.physicians.email"
+		 },
+		 {
+		   "externalName": "Fcon",
+		   "name": "visit.workflowStatus"
+		 },
+		 {
+		   "externalName": "BOH",
+		   "name": "bodyHeight"
+		 },
+		 {
+		   "externalName": "BOH Cb",
+		   "name": "bodyHeightCb",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+		 },
+		 {
+		   "externalName": "BOW",
+		   "name": "bodyWeight"
+		 },
+		 {
+		   "externalName": "BOW Cb",
+		   "name": "bodyWeightCb",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+		 },
+		 {
+		   "externalName": "SBP",
+		   "name": "systolicBloodPressure"
+		 },
+		 {
+		   "externalName": "DBP",
+		   "name": "diastolicBloodPressure"
+		 },
+		 {
+		   "externalName": "BP Cb",
+		   "name": "bloodPressureCb",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+		 },
+		 {
+		   "externalName": "SMO",
+		   "name": "activeSmoking"
+		 },
+		 {
+		   "externalName": "PKY",
+		   "name": "packYears"
+		 },
+		 {
+		   "externalName": "PKY Cb",
+		   "name": "packyearsCb",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+		 },
+		 {
+		   "externalName": "PSF",
+		   "name": "pregnantSinceLastFollowUp"
+		 },
+		 {
+		   "externalName": "HOPA",
+		   "name": "hospitalAdmission"
+		 },
+		 {
+		   "externalName": "ICE",
+		   "name": "importantEvents.name"
+		 }
+	],
+	"name" : "VisitGeneral",
+	"externalName" : "SSCS Visit_General V2"
+}

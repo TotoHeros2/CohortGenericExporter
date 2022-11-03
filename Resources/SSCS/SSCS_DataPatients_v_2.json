@@ -1,0 +1,51 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "cohortID"
+		 },
+		  {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "centers.id"
+		 },
+		 {
+		   "externalName": "creadate ",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "consentType",
+		   "name": "consentGroups.consents.consentType.sortOrder"
+		 },
+		 {
+		   "externalName": "consentValue",
+		   "name": "consentGroups.consents.consentValue"
+		 },
+		 {
+		   "externalName": "consentDate",
+		   "name": "consentGroups.consents.dateRecorded"
+		 },
+		 { 
+		   "externalName": "diseaseType",
+		   "name": "diseaseGroups.diseaseGroup.name"
+		 },
+		 {
+		   "externalName": "diseaseDate",
+		   "name": "diseaseGroups.dateRecorded"
+		 }
+	],
+	"name" : "Patient",
+	"externalName" : "SSCS Data patients V2"
+}

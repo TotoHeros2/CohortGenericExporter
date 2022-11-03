@@ -1,0 +1,233 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "SLICC_SDI_score",
+		   "name": "",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.sscs.SLICCFormater"]
+		 },
+		 {
+		   "externalName": "DAD",
+		   "name": "dateOfDamageAssessment"
+		 },
+		 {
+		   "externalName": "D01",
+		   "name": "cataract"
+		 },
+		 {
+		   "externalName": "D02",
+		   "name": "retinal"
+		 },
+		 {
+		   "externalName": "D03",
+		   "name": "cognitive"
+		 },
+		 {
+		   "externalName": "D04",
+		   "name": "seizures"
+		 },
+		 {
+		   "externalName": "D05",
+		   "name": "cerebrovascularAccident"
+		 },
+		 {
+		   "externalName": "D06",
+		   "name": "cerebrovascularAccidentMult"
+		 },
+		 {
+		   "externalName": "D07",
+		   "name": "neuropathy"
+		 },
+		 {
+		   "externalName": "D08",
+		   "name": "myelopathy"
+		 },
+		 {
+		   "externalName": "D09",
+		   "name": "chronicRenalFailure"
+		 },
+		 {
+		   "externalName": "D10",
+		   "name": "protenuria"
+		 },
+		 {
+		   "externalName": "D11",
+		   "name": "endStageRenalDisease"
+		 },
+		 {
+		   "externalName": "D12",
+		   "name": "pulmonaryArterialHypertension"
+		 },
+		 {
+		   "externalName": "D13",
+		   "name": "pulmonaryFibrosis"
+		 },
+		 {
+		   "externalName": "D14",
+		   "name": "shrinkingLung"
+		 },
+		 {
+		   "externalName": "D15",
+		   "name": "pleuralFibrosis"
+		 },
+		 {
+		   "externalName": "D16",
+		   "name": "pulmonaryInfarction"
+		 },
+		 {
+		   "externalName": "D17",
+		   "name": "coronaropathy"
+		 },
+		 {
+		   "externalName": "D18",
+		   "name": "myocardialInfarction"
+		 },
+		 {
+		   "externalName": "D19",
+		   "name": "myocardialInfarctionMult"
+		 },
+		 {
+		   "externalName": "D20",
+		   "name": "cardiomyopathy"
+		 },
+		 {
+		   "externalName": "D21",
+		   "name": "valvulopathy"
+		 },
+		 {
+		   "externalName": "D22",
+		   "name": "chronicPericarditis"
+		 },
+		 {
+		   "externalName": "D23",
+		   "name": "claudication"
+		 },
+		 {
+		   "externalName": "D24",
+		   "name": "pulpScar"
+		 },
+		 {
+		   "externalName": "D25",
+		   "name": "amputation"
+		 },
+		 {
+		   "externalName": "D26",
+		   "name": "amputationsMult"
+		 },
+		 {
+		   "externalName": "D27",
+		   "name": "postthromboticSyndrome"
+		 },
+		 {
+		   "externalName": "D28",
+		   "name": "bowelInfarction"
+		 },
+		 {
+		   "externalName": "D29",
+		   "name": "bowelInfarctionMult"
+		 },
+		 {
+		   "externalName": "D30",
+		   "name": "mesentericInsufficiency"
+		 },
+		 {
+		   "externalName": "D31",
+		   "name": "chronicPeritonitis"
+		 },
+		 {
+		   "externalName": "D32",
+		   "name": "stricture"
+		 },
+		 {
+		   "externalName": "D33",
+		   "name": "chronicPancreatiis"
+		 },
+		 {
+		   "externalName": "D34",
+		   "name": "myopathy"
+		 },
+		 {
+		   "externalName": "D35",
+		   "name": "arthropathy"
+		 },
+		 {
+		   "externalName": "D36",
+		   "name": "osteoprosis"
+		 },
+		 {
+		   "externalName": "D37",
+		   "name": "osteonecrosis"
+		 },
+		 {
+		   "externalName": "D38",
+		   "name": "osteonecrosisMult"
+		 },
+		 {
+		   "externalName": "D39",
+		   "name": "osteomyelitis"
+		 },
+		 {
+		   "externalName": "D40",
+		   "name": "tendonRupture"
+		 },
+		 {
+		   "externalName": "D41",
+		   "name": "alopecia"
+		 },
+		 {
+		   "externalName": "D42",
+		   "name": "chronicPanniculitis"
+		 },
+		 {
+		   "externalName": "D43",
+		   "name": "skinUlcer"
+		 },
+		 {
+		   "externalName": "D44",
+		   "name": "gonadalFailure"
+		 },
+		 {
+		   "externalName": "D45",
+		   "name": "diabetesMellitus"
+		 },
+		 {
+		   "externalName": "D46",
+		   "name": "malignancy"
+		 },
+		 {
+		   "externalName": "D47",
+		   "name": "malignancyMult"
+		 }
+	],
+	"name" : "Damage",
+	"externalName" : "SSCS Damage V2",
+	"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+}

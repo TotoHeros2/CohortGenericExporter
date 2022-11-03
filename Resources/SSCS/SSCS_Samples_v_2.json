@@ -1,0 +1,76 @@
+{
+	"version" : 2,
+	"fields" :[
+		 {
+		   "externalName": "patid",
+		   "name": "sampleGroup.event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"sampleGroup.event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "sampleGroup.event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "sampleGroup.event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "sampleGroup.event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "sampleGroup.event.physicians.email"
+		 }, 
+		 {
+		   "externalName": "s_idloc",
+		   "name": "localCenterIdentifier"
+		 },
+		 {
+		   "externalName": "sin_date",
+		   "name": "dateCollected"
+		 },
+		 {
+		   "externalName": "sin_type",
+		   "name": "sampleType"
+		 },
+		 {
+		   "externalName": "sin_other",
+		   "name": "otherSampleTypeDescription"
+		 },
+		 {
+		   "externalName": "sin_aliqnum",
+		   "name": "numberOfAliquot"
+		 },
+		 {
+		   "externalName": "sin_cellnum",
+		   "name": "numberOfCollectedCell"
+		 },
+		 {
+		   "externalName": "sin_stock",
+		   "name": "",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.sscs.RemainingSamplesFormater"]
+		 },
+		 {
+		   "externalName": "sout_date$",
+		   "name": "aliquotUsages.dateUsed"
+		 },
+		 {
+		   "externalName": "sout_proj$",
+		   "name": "aliquotUsages.projectIdentifier"
+		 },
+		 {
+		   "externalName": "sout_number$",
+		   "name": "aliquotUsages.quantity"
+		 }
+	],
+	"name" : "Sample",
+	"externalName" : "SSCS Samples V2"
+}

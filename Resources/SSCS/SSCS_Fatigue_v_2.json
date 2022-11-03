@@ -1,0 +1,79 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		 	"externalName" : "FASdate",
+		 	"name":"fatigueRecordDate"
+		 },
+		 {
+		   "externalName": "FAL",
+		   "name": "language"
+		 }, 
+		 {
+		   "externalName": "FA01",
+		   "name": "q01aBotheredByFatigue"
+		 },
+		 {
+		   "externalName": "FA02",
+		   "name": "q01bTiredQuickly"
+		 },
+		 {
+		   "externalName": "FA03",
+		   "name": "q01cDontDoMuch"
+		 },
+		 {
+		   "externalName": "FA04",
+		   "name": "q01dEnoughEnergy"
+		 },
+		 {
+		   "externalName": "FA05",
+		   "name": "q01ePhysicallyExhausted"
+		 },
+		 {
+		   "externalName": "FA06",
+		   "name": "q01fProblemStartThings"
+		 },
+		 {
+		   "externalName": "FA07",
+		   "name": "q01gThinkClearly"
+		 },
+		 {
+		   "externalName": "FA08",
+		   "name": "q01hNoDesireToDo"
+		 },
+		 {
+		   "externalName": "FA09",
+		   "name": "q01iMentallyExhausted"
+		 },
+		 {
+		   "externalName": "FA10",
+		   "name": "q01jCantConcentrate"
+		 }
+	],
+	"name" : "Fatigue",
+	"externalName" : "SSCS Fatigue V2"
+}

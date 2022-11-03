@@ -1,0 +1,308 @@
+{
+	"version" : 2,
+	"fields" :
+	[
+		 {
+		   "externalName": "patid",
+		   "name": "visit.event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"visit.event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "visit.event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "visit.event.patient.sex"
+		 },
+
+		 {
+		   "externalName": "centreid",
+		   "name": "visit.event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "visitcreadate",
+		   "name": "visit.creationDate"
+		 },		 
+		 {
+		   "externalName": "DLV",
+		   "name": "visit.vGenerals.dateOfVisit"
+		 },	
+		 {
+		   "externalName": "FSEM",
+		   "name": "visit.event.physicians.email"
+		 },
+		 {
+		   "externalName": "PGA",
+		   "name": "actPhysicianGlobalActivityIndex"
+		 },
+		 {
+		   "externalName": "SLEDAI",
+		   "name": "actSledai"
+		 },
+		 {
+		   "externalName": "ESSDAI",
+		   "name": "essdai"
+		 },
+		 {
+		   "externalName": "FEV",
+		   "name": "consFever"
+		 },
+		 {
+		   "externalName": "NSW",
+		   "name": "consNightSweats"
+		 },
+		 {
+		   "externalName": "WTL",
+		   "name": "consWeightLoss"
+		 },
+		 {
+		   "externalName": "ESCO",
+		   "name": "consDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "LYP",
+		   "name": "lymphLymphadenopathy"
+		 },
+		 {
+		   "externalName": "SPL",
+		   "name": "lymphSplenomegaly"
+		 },
+		 {
+		   "externalName": "ESLL",
+		   "name": "lymphDomainActivityScoring",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.NoneFormater"]
+		   
+		 },
+		 {
+		   "externalName": "GLS",
+		   "name": "glandGlandularSwelling"
+		 },
+		 {
+		   "externalName": "SIC",
+		   "name": "glandSiccaSyndrome"
+		 },
+		 {
+		   "externalName": "ESGL",
+		   "name": "glandDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "AMS",
+		   "name": "locoArthralgia"
+		 },
+		 {
+		   "externalName": "ARI",
+		   "name": "locoArthritis"
+		 },
+		 {
+		   "externalName": "MYO",
+		   "name": "locoMyositis"
+		 },
+		 {
+		   "externalName": "ESAR",
+		   "name": "locoArticularDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "MAL",
+		   "name": "cutRash"
+		 },
+		 {
+		   "externalName": "APH",
+		   "name": "cutOralOrNasalUlcers"
+		 },
+		 {
+		   "externalName": "ALO",
+		   "name": "cutAlopecia"
+		 },
+		 {
+		   "externalName": "EVA",
+		   "name": "cutVasculitis"
+		 },
+		 {
+		   "externalName": "RAY",
+		   "name": "cutRaynaudSyndrome"
+		 },
+		 {
+		   "externalName": "ERN",
+		   "name": "cutErythemaNodosum"
+		 },
+		 {
+		   "externalName": "ESCU",
+		   "name": "cutDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "PLE",
+		   "name": "pulmPleurisy"
+		 },
+		 {
+		   "externalName": "EIL",
+		   "name": "pulmInterstitialLungDisease"
+		 },
+		 {
+		   "externalName": "ESPU",
+		   "name": "pulmDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "PER",
+		   "name": "carPericarditis"
+		 },
+		 {
+		   "externalName": "ARY",
+		   "name": "carArythmia"
+		 },
+		 {
+		   "externalName": "MYR",
+		   "name": "carMyocarditis"
+		 },
+		 {
+		   "externalName": "NSCD",
+		   "name": "carMyocardialActivityScoring"
+		 },
+		 {
+		   "externalName": "PRO",
+		   "name": "renalProteinuria"
+		 },
+		 {
+		   "externalName": "HUM",
+		   "name": "renalHaematuria"
+		 },
+		 {
+		   "externalName": "URC",
+		   "name": "renalUrinaryCasts"
+		 },
+		 {
+		   "externalName": "PYU",
+		   "name": "renalPyuria"
+		 },
+		 {
+		   "externalName": "GNH",
+		   "name": "renalActiveGlomerulonephritis"
+		 },
+		 {
+		   "externalName": "INH",
+		   "name": "renalActiveInterstitialNephritis"
+		 },
+		 {
+		   "externalName": "ESRE",
+		   "name": "renalDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "PAI",
+		   "name": "digPancreatitis"
+		 },
+		 {
+		   "externalName": "ORC",
+		   "name": "uroOrchitis"
+		 },
+		 {
+		   "externalName": "VIS",
+		   "name": "ocuVisualDisturbance"
+		 },
+		 {
+		   "externalName": "UVE",
+		   "name": "ocuUveitis"
+		 },
+		 {
+		   "externalName": "SCI",
+		   "name": "ocuScleritis"
+		 },
+		 {
+		   "externalName": "OIN",
+		   "name": "ocuOrbitalInflammation"
+		 },
+		 {
+		   "externalName": "ESMU",
+		   "name": "locoMuscularDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "NSOD",
+		   "name": "ocuDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "CRN",
+		   "name": "pnsCranialNerveDisorder"
+		 },
+		 {
+		   "externalName": "PEN",
+		   "name": "pnsPeripheralNeuropathy"
+		 },
+		 {
+		   "externalName": "ESPN",
+		   "name": "pnsDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "PSY",
+		   "name": "cnsPsychosis"
+		 },
+		 {
+		   "externalName": "HEA",
+		   "name": "cnsSevereHeadache"
+		 },
+		 {
+		   "externalName": "STR",
+		   "name": "cnsStroke"
+		 },
+		 {
+		   "externalName": "SEI",
+		   "name": "cnsSeizures"
+		 },
+		 {
+		   "externalName": "OBD",
+		   "name": "cnsOrganicBrainSyndrome"
+		 },
+		 {
+		   "externalName": "MYE",
+		   "name": "cnsMyelitis"
+		 },
+		 {
+		   "externalName": "LME",
+		   "name": "cnsLymphocyticMeningitis"
+		 },
+		 {
+		   "externalName": "ESCN",
+		   "name": "cnsDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "ANE",
+		   "name": "hematoAnaemia"
+		 },
+		 {
+		   "externalName": "LEU",
+		   "name": "hematoLeukopenia"
+		 },
+		 {
+		   "externalName": "PLA",
+		   "name": "hematoThrombocytopenia"
+		 },
+		 {
+		   "externalName": "ESHE",
+		   "name": "hematoDomainActivityScoring"
+		 },
+		 {
+		   "externalName": "TCO",
+		   "name": "bioLowComplement"
+		 },
+		 {
+		   "externalName": "HSI",
+		   "name": "bioSerumIcg"
+		 },
+		 {
+		   "externalName": "DNA",
+		   "name": "bioAntiDsDnaAntibodies"
+		 },
+		 {
+		   "externalName": "ESBI",
+		   "name": "bioDomainActivityScoring"
+		 }
+	],
+	"name" : "VisitActivity",
+	"externalName" : "SSCS Visit_Activity V2",
+	"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.NoneFormater"]
+}

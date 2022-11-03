@@ -1,0 +1,51 @@
+{
+	"version" : 2,
+	"fields" :[		 
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "assDate",
+		   "name": "dateOfAssessment"
+		 },
+		 {
+		   "externalName": "hasEvent",
+		   "name": "hasEvent"
+		 },
+		 {
+		   "externalName": "CVEdate",
+		   "name": "cveDetails.dateOfCVEvent"
+		},
+		{
+		   "externalName": "CVEtype",
+		   "name": "cveDetails.typeCV"
+		},
+		{
+		   "externalName": "CVEother",
+		   "name": "cveDetails.otherType"
+		}
+	],
+	"name" : "CardioVascularEvent",
+	"externalName" : "SSCS CardioVascular Assessment V2"
+}

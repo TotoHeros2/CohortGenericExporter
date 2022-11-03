@@ -1,0 +1,315 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "Fcon",
+		   "name": "workflowStatus"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "DCI",
+		   "name": "dateOfCompletingInclusionData"
+		 },
+		 {
+		   "externalName": "DFM",
+		   "name": "dateOfFirstManifOfSle"
+		 },
+		 {
+		   "externalName": "TCTD",
+		   "name": "diseaseGroup.name"
+		 },
+		 {
+		   "externalName": "DDX",
+		   "name": "dateOfDiagnosisOfSle"
+		 },
+		 {
+		   "externalName": "FDR",
+		   "name": "firstDegreeRelativesWithSle"
+		 },
+		 {
+		   "externalName": "ANC",
+		   "name": "ethnicBackground"
+		 },
+		 {
+		   "externalName": "ANCO",
+		   "name": "ethnicBackgroundOther"
+		 },
+		 {
+		   "externalName": "EDU",
+		   "name": "education",
+		 },
+		 {
+		   "externalName": "EDUO",
+		   "name": "educationOther"
+		 },
+		 {
+		   "externalName": "SUBF",
+		   "name": "constitutionalFever"
+		 },
+		 {
+		   "externalName": "LYAP",
+		   "name": "constitutionalLymphadenopathy"
+		 },
+		 {
+		   "externalName": "A1",
+		   "name": "mucocutaneousMalarRash"
+		 },
+		 {
+		   "externalName": "ASCL",
+		   "name": "mucocutaneousOtherAcuteCutaneousLupus"
+		 },
+		 {
+		   "externalName": "A3",
+		   "name": "mucocutaneousPhotosensitivity"
+		 },
+		 {
+		   "externalName": "A2",
+		   "name": "mucocutaneousDiscoidRash"
+		 },
+		 {
+		   "externalName": "CCLE",
+		   "name": "mucocutaneousChronicCutaneousLupus"
+		 },
+		 {
+		   "externalName": "NSCA",
+		   "name": "mucocutaneousNonScarringAlopecia"
+		 },
+		 {
+		   "externalName": "ERNO",
+		   "name": "mucocutaneousErythemaNodosum"
+		 },
+		 {
+		   "externalName": "A4",
+		   "name": "mucocutaneousOralOrNasalUlcers"
+		 },
+		 {
+		   "externalName": "ARTR",
+		   "name": "locomotorJointTenderness"
+		 },
+		 {
+		   "externalName": "A5",
+		   "name": "locoArthritis"
+		 },
+		 {
+		   "externalName": "A6a",
+		   "name": "cardiorespPleuritis"
+		 },
+		 {
+		   "externalName": "A6b",
+		   "name": "cardiorespPericarditis"
+		 },
+		 {
+		   "externalName": "MYOC",
+		   "name": "cardiorespMyocarditis"
+		 },
+		 {
+		   "externalName": "ILDI",
+		   "name": "cardiorespInterstitialLungDisease"
+		 },
+		 {
+		   "externalName": "A7",
+		   "name": "renalRenalDisorder"
+		 },
+		 {
+		   "externalName": "BPLN",
+		   "name": "renalBiopsyProvenLupusNephritis"
+		 },
+		 {
+		   "externalName": "UVEI",
+		   "name": "neurologicUveitis"
+		 },
+		 {
+		   "externalName": "A8a",
+		   "name": "neurologicSeizures"
+		 },
+		 {
+		   "externalName": "A8b",
+		   "name": "neurologicPsychosis"
+		 },
+		 {
+		   "externalName": "ONEF",
+		   "name": "neurologicOther"
+		 },
+		 {
+		   "externalName": "DCOT",
+		   "name": "hematologicDirectCoombsTestPositivity"
+		 },
+		 {
+		   "externalName": "A9V1",
+		   "name": "hematologicHemolyticAnemia"
+		 },
+		 {
+		   "externalName": "A9",
+		   "name": "hematologicDisorderV2"
+		 },		 
+		 {
+		   "externalName": "A9a",
+		   "name": "hematologicAnemia"
+		 },		 
+		 {
+		   "externalName": "A9b",
+		   "name": "hematologicLeukopenia"
+		 },
+		 {
+		   "externalName": "A9c",
+		   "name": "hematologicLymphopenia"
+		 },
+		 {
+		   "externalName": "A9d",
+		   "name": "hematologicThrombopenia"
+		 },
+		 {
+		   "externalName": "A10a",
+		   "name": "serologicAntiDsDnaAntibodiesPositive"
+		 },
+		 {
+		   "externalName": "A10b",
+		   "name": "serologicAntiSmAntibodiesPositive"
+		 },
+		 {
+		   "externalName": "A10c",
+		   "name": "serologicAntiPhospholipidAntibodiesPositive"
+		 },
+		 {
+		   "externalName": "AROLA",
+		   "name": "serologicAntiSsaRoOrAntiSsbLaAntibodies"
+		 },
+		 {
+		   "externalName": "ARNP",
+		   "name": "serologicAntiU1RnpAntibodies"
+		 },
+		 {
+		   "externalName": "LOCO",
+		   "name": "serologicLowComplement"
+		 },
+		 {
+		   "externalName": "A11",
+		   "name": "serologicAnaPositiveImmunofluorescence"
+		 },
+		 {
+		   "externalName": "SWGL",
+		   "name": "otherSwollenGlands"
+		 },
+		 {
+		   "externalName": "LYSI",
+		   "name": "otherLymphocyticSialadenitis"
+		 },
+		 {
+		   "externalName": "OSJO",
+		   "name": "otherEvidenceOfKeratoconjunctivitisSicca"
+		 },
+		 {
+		   "externalName": "PSJO",
+		   "name": "otherPathologicalSchirmerTest"
+		 },
+		 {
+		   "externalName": "DSJO",
+		   "name": "otherDecreasedSalivaryFlow"
+		 },
+		 {
+		   "externalName": "CBAL",
+		   "name": "otherCompatibleBalFindings"
+		 },
+		 {
+		   "externalName": "NCGR",
+		   "name": "otherNonCaseatingGranulomas"
+		 },
+		 {
+		   "externalName": "ODMA",
+		   "name": "hasOtherManifestations"
+		 },
+		 {
+		   "externalName": "OMA$",
+		   "name": "otherManifestations.name"
+		 },
+		 {
+		   "externalName": "LAPS",
+		   "name": "laps"
+		 },
+		 {
+		   "externalName": "HOFT",
+		   "name": "otherHistoryOfThrombosis"
+		 },
+		 {
+		   "externalName": "HPRM",
+		   "name": "otherHistoryOfPregnancyMorbidity"
+		 },
+		 {
+		   "externalName": "EVP",
+		   "name": "obstreticalEverPregnant"
+		 },
+		 {
+		   "externalName": "NLB",
+		   "name": "obstreticalNumberOfLiveBirths"
+		 },
+		 {
+		 	"externalName":"hasAAD",
+		 	"name":"hasCommorbAAD"
+		 },
+		 {
+		 	"externalName":"hasCI",
+		 	"name":"hasCommorbCI"
+		 },
+		 {
+		 	"externalName":"hasCVR",
+		 	"name":"hasCommorbCVR"
+		 },
+		 {
+		 	"externalName":"hasMA",
+		 	"name":"hasCommorbMA"
+		 },
+		 {
+		 	"externalName":"hasMER",
+		 	"name":"hasCommorbMER"
+		 },
+		 {
+		 	"externalName":"hasOther",
+		 	"name":"hasCommorbOther"
+		 },
+		 {
+		   "externalName": "CMID",
+		   "name": "comorbidities.comorbidity"
+		 },
+		 {
+		   "externalName": "CMG",
+		   "name": "comorbidities.group"
+		 },
+		 {
+		   "externalName": "CMO",
+		   "name": "comorbidities.other"
+		 },
+		 {
+		   "externalName": "CMY",
+		   "name": "comorbidities.since"
+		 }
+	],
+	"name" : "Inclusion",
+	"externalName" : "SSCS Inclusion form V2"
+}

@@ -1,0 +1,193 @@
+{
+	"version" : 2,
+	"fields" :[
+		 {
+		   "externalName": "patid",
+		   "name": "visit.event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"visit.event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "visit.event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "visit.event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "visit.event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "visitcreadate",
+		   "name": "visit.creationDate"
+		 },
+		 {
+		   "externalName": "DLV",
+		   "name": "visit.vGenerals.dateOfVisit"
+		 },	
+		 {
+		   "externalName": "FSEM",
+		   "name": "visit.event.physicians.email"
+		 },
+		 {
+		   "externalName": "LCS",
+		   "name": "oralCorticosteroidsCurrent"
+		 },
+		 {
+		   "externalName": "LCD",
+		   "name": "oralCorticoCurDailyDoseAtTOV"
+		 },
+		 {
+		   "externalName": "LCM",
+		   "name": "oralCorticoCurAvgDailyDoseLM"
+		 },
+		 {
+		   "externalName": "LCP",
+		   "name": "pulsedSteroids"
+		 },
+		 {
+		   "externalName": "LAM",
+		   "name": "antimalarialCurrent"
+		 },
+		 {
+		   "externalName": "LAN",
+		   "name": "antimalarialCurrentType"
+		 },
+		 {
+		   "externalName": "LANT",
+		   "name": "antimalarialCurrentTypeOther"
+		 },
+		 {
+		   "externalName": "LAD",
+		   "name": "antimalarialCurAvgDailyDosePM"
+		 },
+		 {
+		   "externalName": "NSI",
+		   "name": "nsaid"
+		 },
+		 {
+		   "externalName": "LIS",
+		   "name": "cytotoxicDrugBiologicAgent"
+		 },
+		 {
+		   "externalName": "AllImmunoSuppressantsTypes$",
+		   "name": "visitMedicationImmunoSuppressants.type"
+		 },
+		 {
+		   "externalName": "hasImmunoSuppressantsSinceLastStudy",
+		   "name": "immunosuppressantSinceLastVisit"
+		 },		 
+		 {
+		   "externalName": "isImmunoSuppressantsSinceLastStudy$",
+		   "name": "visitMedicationImmunoSuppressants.isSinceFollowUp"
+		 },
+		 {
+		   "externalName": "LINT$",
+		   "name": "visitMedicationImmunoSuppressants.typeOther"
+		 },
+		 {
+		   "externalName": "LIDD$",
+		   "name": "visitMedicationImmunoSuppressants.dailyDoseAtTimeOfVisit"
+		 },
+		 {
+		   "externalName": "LID$",
+		   "name": "visitMedicationImmunoSuppressants.avgDailyDosageOverPastMonth"
+		 },
+		 {
+		   "externalName": "LIT$",
+		   "name": "visitMedicationImmunoSuppressants.dateOfLastAdministration"
+		 },
+
+		 {
+		   "externalName": "LOIM",
+		   "name": "hasOtherImmunos"
+		 },
+		 {
+		   "externalName": "LOT$",
+		   "name": "visitMedicationImmunoModulators.otherImmunomodulatorsType"
+		 },
+		 {
+		   "externalName": "LOTT$",
+		   "name": "visitMedicationImmunoModulators.otherImmunomodulatorsTypeOth"
+		 },
+		 {
+		   "externalName": "LOA$",
+		   "name": "visitMedicationImmunoModulators.otherImmunomodulatorsLA"
+		 },
+		 {
+		   "externalName": "LOSLV$",
+		   "name": "visitMedicationImmunoModulators.isSinceFollowUp"
+		 },
+		 {
+		   "externalName": "hasAnticoagulantTreatment",
+		   "name": "hasAnticoagulantTreatment"
+		 },
+		 {
+		   "externalName": "hasAntihtTreatment",
+		   "name": "hasAntihtTreatment"
+		 },
+		 {
+		   "externalName": "hasDiabeticsTreatment",
+		   "name": "hasDiabeticsTreatment"
+		 },	
+		 {
+		   "externalName": "hasHormoneTreatment",
+		   "name": "hasHormoneTreatment"
+		 },
+		 {
+		   "externalName": "hasLipidTreatment",
+		   "name": "hasLipidTreatment"
+		 },
+		 {
+		   "externalName": "hasOsteoTreatment",
+		   "name": "hasOsteoTreatment"
+		 },
+		 {
+		   "externalName": "hasOtherTreatment",
+		   "name": "hasOtherTreatment"
+		 },		 
+		{
+		   "externalName": "hasRenalTreatment",
+		   "name": "hasRenalTreatment"
+		 },	 		 
+		 {
+		   "externalName": "AllTreamentsTypes$",
+		   "name": "treatments.treatmentType"
+		 },
+		 {
+		   "externalName": "AllTreamentsTypesExport$",
+		   "name": "treatments.treatmentType.getExportCode"
+		 },
+		 {
+		   "externalName": "AllTreamentOthers$",
+		   "name": "treatments.otherMedication"
+		 },
+		 {
+		   "externalName": "OCS",
+		   "name": "oralCorticoSLV"
+		 },
+		 {
+		   "externalName": "CHL",
+		   "name": "antimalarialSinceLastVisit"
+		 },
+		 {
+		   "externalName": "POT",
+		   "name": "ongoingTherapeuticalTrial"
+		 },
+		 {
+		   "externalName": "TTN$",
+		   "name": "visitMedicationTrials.value"
+		 }
+	],
+	"name" : "VisitMedicationData",
+	"externalName" : "SSCS Visit_MedicationData V2",
+	"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+}

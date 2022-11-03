@@ -1,0 +1,33 @@
+{
+	"Applications": [
+		{
+			"name": "SSCS",
+			"dburl": "jdbc:oracle:thin:@znhamlet.hcuge.ch:1531:pr200",
+			"dblogin": "sscs_u",
+			"dbpwd": "njd6ds",
+			"classLocations":"ch.hcuge.simed.cohort.sscs.eo",
+			"documentation": "",
+			"exportDestination":"C:\\exportCohort\\SSCS",
+			"preOperation": [],
+			"postOperation": [
+			],
+			"useFilters": true,
+			"forms": [
+				"SSCS_DataPatients_v_2",
+				"SSCS_DropOut_v_2",
+				"SSCS_SF36_v_2",
+				"SSCS_Inclusion_v_2",
+				"SSCS_Samples_v_2",
+				"SSCS_VisitGeneral_v_2",
+				"SSCS_VisitSocioEconomic_v_2",
+				"SSCS_VisitActivity_v_2",
+				"SSCS_VisitLaboratoryData_v_2",
+				"SSCS_VisitMedicationData_v_2",
+				"SSCS_Biopsies_v_2",
+				"SSCS_Damage_v_2",
+				"SSCS_Fatigue_v_2"
+				],
+			"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.UnansweredFormater"]
+		}
+	]
+}

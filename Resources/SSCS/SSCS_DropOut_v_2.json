@@ -1,0 +1,76 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "typeEvent",
+		   "name": "typeOfEvent"
+		 },
+		 {
+		   "externalName": "comment",
+		   "name": "comments",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.OpenTextFieldCleaner"]
+		 },
+		 {
+		   "externalName": "dropoutDate",
+		   "name": "dateOfDropout"
+		 },
+		 {
+		   "externalName": "lossFUPreason",
+		   "name": "lossToFollowUpReason"
+		 },
+		 {
+		   "externalName": "lossFUPreasonOther",
+		   "name": "lossToFollowUpReasonOther"
+		 },
+		 {
+		   "externalName": "lastalivedate",
+		   "name": "whenLastKnownToBeAlive"
+		 },
+		 {
+		   "externalName": "labelOtherEvent",
+		   "name": "labelOfTheEvent"
+		 },
+		 {
+		   "externalName": "deathRelSLE",
+		   "name": "deathRelatedToSle"
+		 },
+		 {
+		   "externalName": "deathcauseicd",
+		   "name": "deathCauses.name"
+		 },
+		 {
+		   "externalName": "autopsy",
+		   "name": "autopsyPerformed"
+		 }
+	],
+	"name" : "DropOut",
+	"externalName" : "SSCS Drop-out V2"
+}

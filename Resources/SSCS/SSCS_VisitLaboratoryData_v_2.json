@@ -1,0 +1,248 @@
+{
+	"version" : 2,
+	"fields" :[
+		 {
+		   "externalName": "patid",
+		   "name": "visit.event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"visit.event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "visit.event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "visit.event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "visit.event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "visitcreadate",
+		   "name": "visit.creationDate"
+		 },
+		 {
+		   "externalName": "DLV",
+		   "name": "visit.vGenerals.dateOfVisit"
+		 },	
+		 {
+		   "externalName": "FSEM",
+		   "name": "visit.event.physicians.email"
+		 },
+		 {
+		   "externalName": "DLA",
+		   "name": "dateOfLabAssessment"
+		 },
+		 {
+		   "externalName": "ESR",
+		   "name": "esr"
+		 },
+		 {
+		   "externalName": "ESRcb",
+		   "name": "esrCb"
+		 },
+		 {
+		   "externalName": "HGB",
+		   "name": "haemoglobin"
+		 },
+		 {
+		   "externalName": "HGBcb",
+		   "name": "haemoglobinCb"
+		 },
+		 {
+		   "externalName": "LEQ",
+		   "name": "leucocytes"
+		 },
+		 {
+		   "externalName": "LEQcb",
+		   "name": "leucocytesCb"
+		 },
+		 {
+		   "externalName": "LYM",
+		   "name": "lymphocytes"
+		 },
+		 {
+		   "externalName": "LYMcb",
+		   "name": "lymphocytesCb"
+		 },
+		 {
+		   "externalName": "PLQ",
+		   "name": "thrombocytes"
+		 },
+		 {
+		   "externalName": "PLQcb",
+		   "name": "thrombocytesCb"
+		 },
+		 {
+		   "externalName": "SCR",
+		   "name": "serumCreatinine"
+		 },
+		 {
+		   "externalName": "SCRcb",
+		   "name": "serumCreatinineCb"
+		 },
+		 {
+		   "externalName": "SPR",
+		   "name": "serumProtein"
+		 },
+		 {
+		   "externalName": "SPRcb",
+		   "name": "serumProteinCb"
+		 },
+		 {
+		   "externalName": "SAL",
+		   "name": "serumAlbumin"
+		 },
+		 {
+		   "externalName": "SALcb",
+		   "name": "serumAlbuminCb"
+		 },
+		 {
+		   "externalName": "SCH",
+		   "name": "totalCholesterol"
+		 },
+		 {
+		   "externalName": "SCHcb",
+		   "name": "totalCholesterolCb"
+		 },
+		 {
+		   "externalName": "STG",
+		   "name": "triglyceride"
+		 },
+		 {
+		   "externalName": "STGcb",
+		   "name": "triglycerideCb"
+		 },
+		 {
+		   "externalName": "SLC",
+		   "name": "ldlCholesterol"
+		 },
+		 {
+		   "externalName": "SLCcb",
+		   "name": "ldlCholesterolCb"
+		 },
+		 {
+		   "externalName": "PRQ",
+		   "name": "proteinuria24HourCollection"
+		 },
+		 {
+		   "externalName": "PRQcb",
+		   "name": "proteinuria24HourCollectionCb"
+		 },
+		 {
+		   "externalName": "SHC",
+		   "name": "hdlCholesterol"
+		 },
+		 {
+		   "externalName": "SHCcb",
+		   "name": "hdlCholesterolCb"
+		 },
+		 {
+		   "externalName": "SUP",
+		   "name": "urinaryProteinSpotUrine"
+		 },
+		 {
+		   "externalName": "SUPcb",
+		   "name": "urinaryProteinSpotUrineCb"
+		 },
+		 {
+		   "externalName": "SUC",
+		   "name": "urinaryCreatinineSpotUrine"
+		 },
+		 {
+		   "externalName": "SUCcb",
+		   "name": "urinaryCreatinineSpotUrineCb"
+		 },
+		 {
+		   "externalName": "PUS",
+		   "name": "proteinuriaStix"
+		 },
+		 {
+		   "externalName": "HUS",
+		   "name": "haematuriaStix"
+		 },
+		 {
+		   "externalName": "LUS",
+		   "name": "leucocyturiaStix"
+		 },
+		 {
+		   "externalName": "HUQ",
+		   "name": "haematuriaSediment"
+		 },
+		 {
+		   "externalName": "HUQcb",
+		   "name": "haematuriaSedimentCb"
+		 },
+		 {
+		   "externalName": "GLO",
+		   "name": "glomerularTypeErythrocytes"
+		 },
+		 {
+		   "externalName": "PYQ",
+		   "name": "leucocyturiaSediment"
+		 },
+		 {
+		   "externalName": "PYQcb",
+		   "name": "leucocyturiaSedimentCb"
+		 },
+		 {
+		   "externalName": "CRP",
+		   "name": "cReactiveProteineCrp"
+		 },
+		 {
+		   "externalName": "CRPcb",
+		   "name": "cReactiveProteineCrpCb"
+		 },
+		 {
+		   "externalName": "TCQ",
+		   "name": "totalComplementActivityCh50"
+		 },
+		 {
+		   "externalName": "TCQcb",
+		   "name": "totalComplementActivityCh50Cb"
+		 },
+		 {
+		   "externalName": "CCT",
+		   "name": "complementC3"
+		 },
+		 {
+		   "externalName": "CCTcb",
+		   "name": "complementC3Cb"
+		 },
+		 {
+		   "externalName": "CCF",
+		   "name": "complementC4"
+		 },
+		 {
+		   "externalName": "CCFcb",
+		   "name": "complementC4Cb"
+		 },
+		 {
+		   "externalName": "NSA",
+		   "name": "antiNucleosomeAntibodies"
+		 },
+		 {
+		   "externalName": "APA",
+		   "name": "antiPhospholipidAntibodies"
+		 },
+		 {
+		   "externalName": "TIGG",
+		   "name": "totaSerumIgg"
+		 },
+		 {
+		   "externalName": "TIGGcb",
+		   "name": "totaSerumIggCb"
+		 }
+	],
+	"name" : "VisitLaboratoryData",
+	"externalName" : "SSCS Visit_LaboratoryData V2",
+	"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.TrueFalseFormatter"]
+}

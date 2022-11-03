@@ -1,0 +1,111 @@
+{
+	"version" : 2,
+	"fields" :[		 
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "visitcreadate",
+		   "name": "event.visits.creationDate"
+		 },
+		 {
+		   "externalName": "assDate",
+		   "name": "assessmentDate"
+		 },
+		 {
+		   "externalName": "DLV",
+		   "name": "event.visits.vGenerals.dateOfVisit"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "HED",
+		   "name": "education"
+		 },
+		 {
+		   "externalName": "HEDO",
+		   "name": "educationOther"
+		 },
+		 {
+		   "externalName": "PRS",
+		   "name": "profStatus"
+		 },
+		 {
+		   "externalName": "PRSO",
+		   "name": "profStatusOther"
+		 },
+		 {
+		   "externalName": "WCP",
+		   "name": "workingCapacity"
+		 },
+		 {
+		   "externalName": "CAW",
+		   "name": "incapacityCause"
+		 },
+		 {
+		   "externalName": "CAWO",
+		   "name": "incapacityCauseOther"
+		 },
+		 {
+		   "externalName": "PAR",
+		   "name": "partnership"
+		 },
+		 {
+		   "externalName": "ADH",
+		   "name": "adherence"
+		 },
+		 {
+		   "externalName": "MCD",
+		   "name": "missingConsecutiveDose"
+		 },
+		 {
+		   "externalName": "SPQ",
+		   "name": "sleepQuality"
+		 },
+		 {
+		   "externalName": "DSN",
+		   "name": "daytimeSleepiness"
+		 },
+		 {
+		   "externalName": "EXR",
+		   "name": "regularExercise"
+		 },
+		 {
+		   "externalName": "EXF",
+		   "name": "regularExerciseFrequency"
+		 },
+		 {
+		   "externalName": "EXM",
+		   "name": "regularExerciseDuration"
+		 },
+		 {
+		   "externalName": "EXI",
+		   "name": "intensityEffort"
+		 }
+	],
+	"name" : "VisitSocioEconomic",
+	"externalName" : "SSCS Visit_SocioEco V2"
+}

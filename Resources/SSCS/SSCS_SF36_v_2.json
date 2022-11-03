@@ -1,0 +1,191 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		  {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		  {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "Fcon",
+		   "name": "workflowStatus"
+		 },
+		 {
+		   "externalName": "assdate",
+		   "name": "assessmentDate"
+		 },
+		 {
+		   "externalName": "language",
+		   "name": "language"
+		 },
+		 {
+		   "externalName": "SF01",
+		   "name": "q01GeneralHealthRating"
+		 },
+		 {
+		   "externalName": "SF02",
+		   "name": "q02ChangeHeathRatingOverAYear"
+		 },
+		 {
+		   "externalName": "SF03A",
+		   "name": "q03aVigorousActivity"
+		 },
+		 {
+		   "externalName": "SF03B",
+		   "name": "q03bModerateActivity"
+		 },
+		 {
+		   "externalName": "SF03C",
+		   "name": "q03cLiftGrocery"
+		 },
+		 {
+		   "externalName": "SF03D",
+		   "name": "q03dClimbSeveralFilght"
+		 },
+		 {
+		   "externalName": "SF03E",
+		   "name": "q03eClimbOneFlight"
+		 },
+		 {
+		   "externalName": "SF03F",
+		   "name": "q03fBendKneel"
+		 },
+		 {
+		   "externalName": "SF03G",
+		   "name": "q03gWalkMoreThanOneKilometer"
+		 },
+		 {
+		   "externalName": "SF03H",
+		   "name": "q03hWalkSeveralBlock"
+		 },
+		 {
+		   "externalName": "SF03I",
+		   "name": "q03iWalkOneBlok"
+		 },
+		 {
+		   "externalName": "SF03J",
+		   "name": "q03jBathDress"
+		 },
+		 {
+		   "externalName": "SF04A",
+		   "name": "q04aCutDownTime"
+		 },
+		 {
+		   "externalName": "SF04B",
+		   "name": "q04bAccomplishLess"
+		 },
+		 {
+		   "externalName": "SF04C",
+		   "name": "q04cLimitedInKind"
+		 },
+		 {
+		   "externalName": "SF04D",
+		   "name": "q04dHadDifficulty"
+		 },
+		 {
+		   "externalName": "SF05A",
+		   "name": "q05aCutDownTime"
+		 },
+		 {
+		   "externalName": "SF05B",
+		   "name": "q05bAccomplishLess"
+		 },
+		 {
+		   "externalName": "SF05C",
+		   "name": "q05cNotCareFul"
+		 },
+		 {
+		   "externalName": "SF06",
+		   "name": "q06SocialExtent"
+		 },
+		 {
+		   "externalName": "SF07",
+		   "name": "q07PainMagnitude"
+		 },
+		 {
+		   "externalName": "SF08",
+		   "name": "q08PainInterference"
+		 },
+		 {
+		   "externalName": "SF09A",
+		   "name": "q09aPepLife"
+		 },
+		 {
+		   "externalName": "SF09B",
+		   "name": "q09bNervous"
+		 },
+		 {
+		   "externalName": "SF09C",
+		   "name": "q09cDownInDumps"
+		 },
+		 {
+		   "externalName": "SF09D",
+		   "name": "q09dPeaceful"
+		 },
+		 {
+		   "externalName": "SF09E",
+		   "name": "q09eEnergy"
+		 },
+		 {
+		   "externalName": "SF09F",
+		   "name": "q09fBlueSad"
+		 },
+		 {
+		   "externalName": "SF09G",
+		   "name": "q09gWornOut"
+		 },
+		 {
+		   "externalName": "SF09H",
+		   "name": "q09hHappy"
+		 },
+		 {
+		   "externalName": "SF09I",
+		   "name": "q09iTired"
+		 },
+		 {
+		   "externalName": "SF10",
+		   "name": "q10SocialTime"
+		 },
+		 {
+		   "externalName": "SF11A",
+		   "name": "q11aSickEasier"
+		 },
+		 {
+		   "externalName": "SF11B",
+		   "name": "q11aSickEasier"
+		 },
+		 {
+		   "externalName": "SF11C",
+		   "name": "q11cWorseHealth"
+		 },
+		 {
+		   "externalName": "SF11D",
+		   "name": "q11dExcellentHealth"
+		 }
+	],
+	"name" : "SF36",
+	"externalName" : "SSCS Health questionnaire (SF-36) V2"
+}

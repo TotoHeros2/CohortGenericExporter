@@ -1,0 +1,21 @@
+{
+	"Applications": [
+		{
+			"name": "SSCS",
+			"dburl": "jdbc:oracle:thin:@znhamlet.hcuge.ch:1531:pr200",
+			"dblogin": "sscs_u",
+			"dbpwd": "njd6ds",
+			"classLocations":"ch.hcuge.simed.cohort.sscs.eo",
+			"documentation": "",
+			"exportDestination":"C:\\exportCohort\\SSCS",
+			"preOperation": [],
+			"postOperation": [
+			],
+			"useFilters": true,
+			"forms": [
+				"SSCS_VisitSocioEconomic_v_2",
+				],
+			"cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.UnansweredFormater"]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+Copier depuis C:\workspace\\CohortGenericExporter
+Si modif faire csv depuis eclispe 2019-12
+
+1) Compile SimedFoundation/CohortUser/SSCSPersitence frameworks in C:/apple
+2) remove source path from theses frameworks. None for this project
+3) add in build.properties
+dist.deploy.app=CohortGenericExporter
+embed.Local=true
+embed.Project=true
+embed.System=true
+embed.User=true
+eoAdaptorClassName=
+principalClass=ch.hcuge.simed.cohortgenericexporter.Application
+project.name=CohortGenericExporter
+project.name.lowercase=cohortgenericexporter
+dest.dir=dist
+
+5) get standard build.xml
+6) ant install -> 2 zip app + web
+7) add extraction download in app

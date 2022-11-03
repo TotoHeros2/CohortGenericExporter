@@ -1,0 +1,92 @@
+{
+	"version" : 2,
+	"fields" : [
+		 {
+		   "externalName": "patid",
+		   "name": "event.patient.cohortID"
+		 },
+		 {
+		 	"externalName" : "formerFiviveDigitSSCSId",
+		 	"name":"event.patient.formerFiviveDigitSSCSId"
+		 },
+		 {
+		   "externalName": "birthday",
+		   "name": "event.patient.birthDate"
+		 },
+		 {
+		   "externalName": "sex",
+		   "name": "event.patient.sex"
+		 },
+		 {
+		   "externalName": "centreid",
+		   "name": "event.patient.centers.id"
+		 },
+		 {
+		   "externalName": "creadate",
+		   "name": "creationDate"
+		 },
+		 {
+		   "externalName": "FSEM",
+		   "name": "event.physicians.email"
+		 },
+		 {
+		   "externalName": "BOR",
+		   "name": "organ"
+		 },
+		 {
+		   "externalName": "OrganOther",
+		   "name": "organOther"
+		 },
+		 {
+		   "externalName": "BDT",
+		   "name": "dateOfBiopsy"
+		 },
+		 {
+		   "externalName": "BPI",
+		   "name": "pathologyInstitute"
+		 },
+		 {
+		   "externalName": "BNR",
+		   "name": "biopsyNumber"
+		 },
+		 {
+		   "externalName": "BFL",
+		   "name": "histologicalFeaturesOfSle"
+		 },
+		 {
+		   "externalName": "BRE",
+		   "name": "results",
+		   "cleaners" : ["ch.hcuge.simed.cohortgenericexporter.transformer.filters.OpenTextFieldCleaner"]
+		 },
+		 {
+		   "externalName": "RBI",
+		   "name": "biopsyImmunofluorescenceTypes.immunofluorescenceType.code"
+		 },
+		 {
+		   "externalName": "RBIO",
+		   "name": "biopsyImmunofluorescenceTypes.other"
+		 },
+		 {
+		   "externalName": "RBG",
+		   "name": "class1To6"
+		 },
+		 {
+		   "externalName": "LNCLA",
+		   "name": "lupusClassification"
+		 },
+		 {
+		   "externalName": "LNCLAO",
+		   "name": "lupusClassificationOther"
+		 },
+		 {
+		   "externalName": "RBF",
+		   "name": "classIvSubclassSOrG"
+		 },
+		 {
+		   "externalName": "RBA",
+		   "name": "activityAAndOrC"
+		 }
+	],
+	"name" : "Biopsy",
+	"externalName" : "SSCS Biopsies V2"
+}
